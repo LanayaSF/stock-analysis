@@ -1,0 +1,20 @@
+
+# Analyzing Stocks  
+
+## Project Overview
+
+### Purpose
+
+Steve is an Investment Analyst whose parents have invested in a single stock, DAQO Energy (DQ). We have developed code to determine the historical returns for twelve green energy stocks in 2017 and 2018 to help Steve’s parents invest their money wisely. We have built and refined the code to run smoothly and output the 2017 and 2018 returns in a shorter time.
+
+## Analysis 
+
+### Impact of Refactored Code on runtime 
+
+We used the Timer function to calculate the time it took for Excel to process the data and output the returns requested for 2017 and 2018. The refactored code was faster than the original code (2017_challenge and 2018_challenge images). Further, every time the code is run, it becomes faster each time at processing the data. We found that the returns on DQ were high in 2017 (200%) and low in 2018 (-63%). We would advise investing in ENPH, which had positive returns across both years. 
+
+### Summary
+
+There are several advantages to refactoring code. The refactored code in the challenge was cleaner, shorter, and easier to read and add to, as compared to the original stocks script, which had many of the tasks split into different subroutines. When including the buttons, it was easy to assign macros because there were only two, as opposed to six different macros in the original. This makes it easier for additional authors to add to the code to conduct further analyses and look for bugs to fix. As we demonstrated, refactored code also runs faster and is more efficient. As the code gets longer and more complex, it’s useful to have a clean and efficient-running code. 
+
+Code refactoring may be disadvantageous in situations where there are tight deadlines (such as beta launch), where you know the code is not meant to be clean, as it is time consuming. The current stocks analysis for the challenge was also a simple output, so it did not seem necessary to refactor the code, for a marginal improvement in processing time (split seconds).  
